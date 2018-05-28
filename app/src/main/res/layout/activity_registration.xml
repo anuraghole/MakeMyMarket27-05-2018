@@ -122,9 +122,8 @@
             <TextView
                 android:id="@+id/tv_already_user"
                 style="@style/TextView.Medium"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@android:color/black"
                 android:gravity="center"
-                android:padding="@dimen/padding"
                 android:text="Already a user?"
                 android:layout_marginBottom="20dp"/>
         </LinearLayout>
