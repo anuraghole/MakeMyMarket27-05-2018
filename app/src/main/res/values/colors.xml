@@ -5,7 +5,7 @@
     <color name="colorAccent">#009688</color>
 
 
-    <color name="windowBackground">#3e3e3e</color>
+    <color name="windowBackground">#FFFFFF</color>
     <color name="textColor">#FFFFFF</color>
     <color name="colorButtonBackground">#621e30</color>
     <color name="colorEditTextBackground">#ECECEC</color>
