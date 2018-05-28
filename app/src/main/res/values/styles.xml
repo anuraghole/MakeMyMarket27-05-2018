@@ -15,7 +15,6 @@
 
     <style name="AppMaterialTheme.EditTextStyle" parent="Base.Widget.AppCompat.EditText">
         <item name="android:layout_marginTop">@dimen/margin</item>
-        <item name="android:layout_marginBottom">@dimen/margin</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:padding">@dimen/padding_edittext</item>
@@ -26,10 +25,9 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minWidth">200dp</item>
-      <!--  <item name="android:background">@drawable/button_background</item>-->
+       <item name="android:background">@color/colorPrimary</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_marginTop">@dimen/margin</item>
-        <item name="android:layout_marginBottom">@dimen/margin</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
