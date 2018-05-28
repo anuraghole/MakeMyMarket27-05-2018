@@ -3,4 +3,12 @@
     <color name="colorPrimary">#FF5722</color>
     <color name="colorPrimaryDark">#E64A19</color>
     <color name="colorAccent">#009688</color>
+
+
+    <color name="windowBackground">#3e3e3e</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="colorButtonBackground">#621e30</color>
+    <color name="colorEditTextBackground">#ECECEC</color>
+    <color name="colorError">#EF5350</color>
+    <color name="colorSuccess">#26A69A</color>
 </resources>
