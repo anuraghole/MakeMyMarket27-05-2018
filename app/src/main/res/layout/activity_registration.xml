@@ -1,10 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/windowBackground">
+    android:background="@color/windowBackground"
+    android:orientation="vertical">
 
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_fname"
+                    style="@style/AppMaterialTheme.EditTextStyle"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:drawablePadding="@dimen/margin"
+                    android:hint="First Name"
+                    android:inputType="textCapWords"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_mname"
+                    style="@style/AppMaterialTheme.EditTextStyle"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:drawablePadding="@dimen/margin"
+                    android:hint="Middle Name"
+                    android:inputType="textCapWords"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_lname"
+                    style="@style/AppMaterialTheme.EditTextStyle"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:drawablePadding="@dimen/margin"
+                    android:hint="Last Name"
+                    android:inputType="textCapWords"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_email"
+                    style="@style/AppMaterialTheme.EditTextStyle"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:drawablePadding="@dimen/margin"
+                    android:hint="your@example.com"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_mobile"
+                    style="@style/AppMaterialTheme.EditTextStyle"
+                    android:drawableLeft="@drawable/ic_mobile"
+                    android:drawablePadding="@dimen/margin"
+                    android:hint="Mobile"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_password"
+                    style="@style/AppMaterialTheme.EditTextStyle"
+                    android:drawableLeft="@drawable/ic_password"
+                    android:drawablePadding="@dimen/margin"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_cnf_password"
+                    style="@style/AppMaterialTheme.EditTextStyle"
+                    android:drawableLeft="@drawable/ic_password"
+                    android:drawablePadding="@dimen/margin"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:id="@+id/bn_register"
+                style="@style/AppMatrialTheme.ButtonStyle"
+                android:text="Register"/>
+
+            <TextView
+                android:id="@+id/tv_already_user"
+                style="@style/TextView.Medium"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="@dimen/padding"
+                android:text="Already a user?"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>
