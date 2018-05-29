@@ -2,18 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/windowBackground"
+    android:orientation="vertical"
+    tools:context=".activities.LoginActivity">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        >
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="@dimen/margin"
-            android:background="@color/windowBackground"
             android:orientation="vertical">
 
 
@@ -52,7 +55,8 @@
 
             <Button
                 style="@style/AppMatrialTheme.ButtonStyle"
-                android:text="Login" />
+                android:text="Login"
+                android:onClick="goToHome"/>
 
             <TextView
                 style="@style/TextView.Medium"
@@ -65,7 +69,8 @@
                 style="@style/TextView.Medium"
                 android:gravity="center"
                 android:text="Haven't Registered Yet ? SignUp"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:onClick="goToRegistration"/>
         </LinearLayout>
 
     </ScrollView>

@@ -5,6 +5,7 @@
         <!-- Customize your theme here. -->
 
     </style>
+
     <style name="SuperMaterialTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -25,7 +26,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minWidth">200dp</item>
-       <item name="android:background">@color/colorPrimary</item>
+        <item name="android:background">@color/colorPrimary</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_marginTop">@dimen/margin</item>
         <item name="android:textColor">@android:color/white</item>
@@ -37,7 +38,7 @@
     <style name="AppMatrialTheme.spinnerStyle" parent="Base.Widget.AppCompat.Spinner">
         <item name="android:layout_marginTop">@dimen/margin</item>
         <item name="android:layout_marginBottom">@dimen/margin</item>
-       <!-- <item name="android:background">@drawable/my_border</item>-->
+        <!-- <item name="android:background">@drawable/my_border</item>-->
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:spinnerMode">dialog</item>
@@ -75,6 +76,15 @@
     <style name="AppMatrialTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppMatrialTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppMaterialTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppMaterialTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppMaterialTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>
