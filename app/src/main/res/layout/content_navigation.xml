@@ -17,4 +17,13 @@
 
     </LinearLayout>
 
+    <!--<TextView
+        android:id="@+id/category"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:onClick="selectLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Location"/>-->
+
 </android.support.constraint.ConstraintLayout>
